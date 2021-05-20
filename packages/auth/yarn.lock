@@ -837,14 +837,13 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@orion-js/app@^1.2.4":
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/@orion-js/app/-/app-1.2.4.tgz#cc277379e13a322ce5599d23d2890f3a11000624"
-  integrity sha512-VCmBGbvw10wCJ72rYPk6EPbNKlm/PaQGBxAxi2atBbWIx9sqhRTl481Kh62fhxveFiqelzwyX4msik1M0GGvCg==
+"@orion-js/app@^1.7.9":
+  version "1.7.9"
+  resolved "https://registry.yarnpkg.com/@orion-js/app/-/app-1.7.9.tgz#d6ce83c5da279f4b706c04a7db75a7226bf81c42"
+  integrity sha512-SzP0cIyX5HgavaWNANeTx5OfofNMVlt0w4dUpJHAjz65LwKw+qwnznfBAi40LNLGrqF1l+YskdsFCexHYwCuEQ==
   dependencies:
     "@babel/polyfill" "^7.4.4"
-    "@orion-js/schema" "^1.2.0"
-    async-exit-hook "^2.0.1"
+    "@orion-js/schema" "^1.7.2"
     colors "^1.3.3"
     dataloader "^2.0.0"
     dot-object "^1.9.0"
@@ -854,10 +853,10 @@
     path-match "^1.2.4"
     path-to-regexp "^3.0.0"
 
-"@orion-js/schema@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@orion-js/schema/-/schema-1.2.0.tgz#d5eb812aa2f9f46e478ca64da94ac1e70127c943"
-  integrity sha512-oVsgAM960FIdoXavroo/4zKv7zEr/qRSsS8ZzrWiXi/imj0JyNVkaJ89quye3LWoyqAvzJA2ajhneALrHIlA5A==
+"@orion-js/schema@^1.7.2":
+  version "1.7.2"
+  resolved "https://registry.yarnpkg.com/@orion-js/schema/-/schema-1.7.2.tgz#43d75481dc8eff9dc92eb0176ed404cfa41578c8"
+  integrity sha512-Oqer4OCXwSCtlkR/wheOPFpLjbGjRIt3L+Qyv8z6lRkO+NgcaW7ksxY0P9jlYqheAtbSpdx5AMSrjPaMGpd3iw==
   dependencies:
     dot-object "^1.7.0"
     lodash "^4.17.10"
@@ -1012,11 +1011,6 @@ async-each@^1.0.1:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/async-each/-/async-each-1.0.3.tgz#b727dbf87d7651602f06f4d4ac387f47d91b0cbf"
   integrity sha512-z/WhQ5FPySLdvREByI2vZiTWwCnF0moMJ1hK9YQwDTHKh6I7/uSckMetoRGb5UBZPC1z0jlw+n/XCgjeH7y1AQ==
-
-async-exit-hook@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/async-exit-hook/-/async-exit-hook-2.0.1.tgz#8bd8b024b0ec9b1c01cccb9af9db29bd717dfaf3"
-  integrity sha512-NW2cX8m1Q7KPA7a5M2ULQeZ2wR5qI5PAbw5L0UOMxdioVk9PMZ0h1TmyZEkPYrCvYjDlFICusOu1dlEKAAeXBw==
 
 async-limiter@~1.0.0:
   version "1.0.0"
@@ -3043,14 +3037,10 @@ lodash.sortby@^4.7.0:
   version "4.7.0"
   resolved "https://registry.yarnpkg.com/lodash.sortby/-/lodash.sortby-4.7.0.tgz#edd14c824e2cc9c1e0b0a1b42bb5210516a42438"
 
-lodash@^4.13.1, lodash@^4.17.10, lodash@^4.17.4:
-  version "4.17.10"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
-
-lodash@^4.17.13:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+lodash@^4.13.1, lodash@^4.17.10, lodash@^4.17.13, lodash@^4.17.4:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 longest@^1.0.1:
   version "1.0.1"
